@@ -1,0 +1,59 @@
+.app-loading {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  overflow: hidden;
+  color: #0087c9;
+  background-color: white;
+}
+
+.app-loading--loaded {
+  animation: fadeOut 1s;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.app {
+  display: flex;
+}
+
+.cards {
+  margin-bottom: 20vh;
+}
+
+.cards > button {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.side-menu {
+  padding: 30px;
+}
+
+.items-shown {
+  padding-top: 2em;
+  text-align: center;
+}
+
+.not-found {
+  width: 700px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

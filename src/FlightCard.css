@@ -1,0 +1,105 @@
+/* Header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0087c9;
+  color: white;
+  padding: 10px;
+  height: 70px;
+}
+
+.header > img {
+  max-height: 50px;
+  max-width: 100px;
+}
+
+.header > h1 {
+  font-size: 20px;
+}
+
+.header__price {
+  text-align: right;
+}
+
+.header__price h2 {
+  font-weight: lighter;
+}
+
+.header__price p {
+  font-size: 14px;
+}
+
+/* Card */
+
+.card {
+  width: 700px;
+  height: 400px;
+  margin: 20px 0;
+}
+
+.card__hr {
+  background-color: #0087c9;
+  height: 3px;
+}
+
+.card__button {
+  width: 100%;
+  height: 40px;
+  border: none;
+  background-color: orange;
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+/* Card body */
+
+.leg {
+  padding: 10px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.destination {
+  font-size: 18px;
+  padding: 5px 0;
+}
+
+.leg__destination-divider {
+  opacity: 0.2;
+}
+
+.destination__airport-uid,
+.destination__arrow {
+  color: #0087c9;
+}
+
+.duration {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 20px;
+  padding: 5px 0;
+}
+
+.duration__date {
+  color: #0087c9;
+  font-size: 16px;
+}
+
+.transfer {
+  display: flex;
+  align-items: center;
+  padding: 5px 35px;
+}
+
+.transfer > p {
+  color: orange;
+  padding: 0 10px;
+}
+
+.leg__duration-divider {
+  padding: 13px 35px;
+}

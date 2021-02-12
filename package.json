@@ -1,0 +1,43 @@
+{
+  "name": "test-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "json": "json-server --watch flights.json",
+    "start": "webpack serve --mode development --open --hot"
+  },
+  "author": "nationalanthem",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "debounce": "^1.2.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.2",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "@babel/preset-react": "^7.12.13",
+    "@babel/preset-typescript": "^7.12.13",
+    "@types/debounce": "^1.2.0",
+    "@types/react": "^17.0.1",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-redux": "^7.1.16",
+    "@types/redux-logger": "^3.0.8",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.2",
+    "html-webpack-plugin": "^5.0.0",
+    "json-server": "^0.16.3",
+    "style-loader": "^2.0.0",
+    "typescript": "^4.1.4",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
